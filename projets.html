@@ -43,11 +43,22 @@
 								</p>
 								<br><br>
 								<h2>Détection de tumeur grâce à l'IA</h2>
-									<p>
-										- Prétraitement des données d’images de tumeurs<br>
-										- Utilisation d’autoencodeurs pour un premier traitement des images<br>
-										- Entrainement d’IA de deep learning pour reconnaitre les tumeurs
-									</p>
+								<p>Dans ce projet, l'objectif était de développer une méthode de détection de tumeurs en utilisant des techniques de deep learning appliquées aux images médicales. Le processus s'est déroulé en plusieurs étapes clés :</p>
+								<p><span class="image left"><img src="images/tumor.jpg" alt="" /></span>
+									- <strong>Prétraitement des données d'images : </strong> Traitement initial des images pour améliorer la qualité des données en vue de l'apprentissage, incluant des ajustements de contraste, de netteté, et des opérations de redimensionnement ou de suppression de bruit. <br>
+									- <strong>Utilisation d’autoencodeurs :</strong>Développement et utilisation d'autoencodeurs pour effectuer un premier traitement des images et pour extraire des caractéristiques importantes de manière non supervisée, facilitant la segmentation et la reconnaissance des zones potentiellement tumorales. <br>
+									- <strong>Entraînement d’un modèle de deep learning :</strong>Mise en place et entraînement d’un modèle de classification (CNN) pour détecter les tumeurs sur les images prétraitées. <br> <br>
+								</p>
+								<h2>Implémentation de l'algorithme des k plus proches voisins (KNN) en C pour la prédiction de prix sur Airbnb</h2>
+								<p>L'objectif de ce projet était de prédire le prix des logements Airbnb en utilisant l'algorithme des k plus proches voisins (KNN). Voici les étapes principales du processus :</p>
+								<p><span class="image left"><img src="images/Illu-2-KNN.jpg" alt="" /></span>
+									- <strong>Prétraitement des données : </strong> Importation des données depuis un fichier CSV pour recueillir des informations sur les logements, comme leur localisation, leur taille, ou leurs équipements. <br>
+									- <strong>Calcul des distances :</strong>Pour chaque logement à prédire, les distances avec les autres logements sont calculées en fonction de plusieurs critères (par exemple, distance géographique, nombre de chambres, équipements, etc.). Ces distances permettent d'identifier les logements les plus similaires. <br>
+									<span class="image left"><img src="images/prices.webp" alt="" /></span>
+									- <strong>Tri des voisins :</strong>Les logements sont ensuite triés en fonction des distances calculées, afin de sélectionner les k logements les plus proches (les "voisins"). <br>
+									- <strong>Calcul de la prédiction :</strong>Une fois les k voisins identifiés, la moyenne de leurs prix est calculée pour obtenir une estimation du prix du logement cible.<br>
+									- <strong>Évaluation et validation :</strong>Les prédictions sont comparées aux prix réels (si disponibles) pour évaluer la précision du modèle. Des tests sont effectués pour ajuster le choix des critères et des valeurs de k, optimisant ainsi les performances du modèle.<br> <br>
+								</p>
 							</section>
 
 					</div>
