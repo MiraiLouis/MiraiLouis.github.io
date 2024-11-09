@@ -28,7 +28,7 @@
 
 						<!-- Content -->
 							<section id="content" class="main">
-								<h2>Projet d'extraction d'informations à partir de cartes avec une IA</h2>
+								<h2 id="plu-section">Projet d'extraction d'informations à partir de cartes avec une IA</h2>
 								<p>Dans un contexte où les prix de l'immobilier, en particulier des terrains constructibles, ont augmenté de manière significative en raison de la stricte réglementation d'utilisation des sols. Les règles sont actuellement déterminées par de nombreuses autorités locales, rendant les informations extrêmement dispersées et non homogènes.</p>
 								<p><span class="image left"><img src="images/processus-cartes.png" alt="" /></span>
 									Ce projet de groupe vise à : <br>
@@ -42,14 +42,14 @@
 								Puis, après avoir extrait les cartes, nous avons utilisé la librairie OpenCV pour détecter les contours des cartes et les découper pour ensuite les géocoder avec GDAL. <br>
 								</p>
 								<br><br>
-								<h2>Détection de tumeur grâce à l'IA</h2>
+								<h2 id="tumor-section">Détection de tumeur grâce à l'IA</h2>
 								<p>Dans ce projet, l'objectif était de développer une méthode de détection de tumeurs en utilisant des techniques de deep learning appliquées aux images médicales. Le processus s'est déroulé en plusieurs étapes clés :</p>
 								<p><span class="image left"><img src="images/tumor.jpg" alt="" /></span>
 									- <strong>Prétraitement des données d'images : </strong> Traitement initial des images pour améliorer la qualité des données en vue de l'apprentissage, incluant des ajustements de contraste, de netteté, et des opérations de redimensionnement ou de suppression de bruit. <br>
 									- <strong>Utilisation d’autoencodeurs :</strong>Développement et utilisation d'autoencodeurs pour effectuer un premier traitement des images et pour extraire des caractéristiques importantes de manière non supervisée, facilitant la segmentation et la reconnaissance des zones potentiellement tumorales. <br>
 									- <strong>Entraînement d’un modèle de deep learning :</strong>Mise en place et entraînement d’un modèle de classification (CNN) pour détecter les tumeurs sur les images prétraitées. <br> <br>
 								</p>
-								<h2>Implémentation de l'algorithme des k plus proches voisins (KNN) en C pour la prédiction de prix sur Airbnb</h2>
+								<h2 id="airbnb-section">Implémentation de l'algorithme des k plus proches voisins (KNN) en C pour la prédiction de prix sur Airbnb</h2>
 								<p>L'objectif de ce projet était de prédire le prix des logements Airbnb en utilisant l'algorithme des k plus proches voisins (KNN). Voici les étapes principales du processus :</p>
 								<p><span class="image left"><img src="images/Illu-2-KNN.jpg" alt="" /></span>
 									- <strong>Prétraitement des données : </strong> Importation des données depuis un fichier CSV pour recueillir des informations sur les logements, comme leur localisation, leur taille, ou leurs équipements. <br>
@@ -58,6 +58,18 @@
 									- <strong>Tri des voisins :</strong>Les logements sont ensuite triés en fonction des distances calculées, afin de sélectionner les k logements les plus proches (les "voisins"). <br>
 									- <strong>Calcul de la prédiction :</strong>Une fois les k voisins identifiés, la moyenne de leurs prix est calculée pour obtenir une estimation du prix du logement cible.<br>
 									- <strong>Évaluation et validation :</strong>Les prédictions sont comparées aux prix réels (si disponibles) pour évaluer la précision du modèle. Des tests sont effectués pour ajuster le choix des critères et des valeurs de k, optimisant ainsi les performances du modèle.<br> <br>
+								</p>
+								<h2 id="astar-section">Algorithme A* dans un environnement inconnu simplifié</h2>
+								<p>Ce projet visait à appliquer l'algorithme A* pour naviguer dans un environnement non exploré, dans le but de trouver le chemin le plus court vers un objectif. Voici les étapes principales :</p>
+								<p><span class="image left"><img src="images/maze.png" alt="" /></span>
+									- <strong>Modélisation de l'environnement : </strong> Un laser LIDAR a été utilisé pour scanner l’espace et construire progressivement une matrice représentant l'environnement. Cette matrice sert de base à la recherche de chemin en définissant les zones libres et les obstacles. <br>
+									- <strong>Recherche du plus court chemin : </strong>L'algorithme A* a été appliqué pour explorer les chemins possibles dans la matrice, en tenant compte des coûts de déplacement et des heuristiques de distance pour identifier le chemin le plus efficace vers la cible.<br>
+									- <strong>Programmation et traversée de graphes : </strong>Le système est capable d'ajuster dynamiquement le parcours en fonction des nouvelles informations reçues du LIDAR, modélisé par une fonction dans le programme. <br>
+								</p>
+								<h2 id="autres-section">Autres projets</h2>
+								<p>En dehors des travaux précédemment présentés, j'ai également travaillé sur les projets suivants:</p>
+									- <strong>Site de cuisine : </strong> Développement d'un site de recette de cuisine from scratch. Projet développé en utilisant les technologies suivantes: HTML, CSS, PHP et JavaScript. <br>
+									- <strong>Application Java avec interface graphique </strong>Développement du jeu Quoridor en Java, GUI développé avec JavaFX<br>
 								</p>
 							</section>
 
